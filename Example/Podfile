@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TYCustomScrollView_Example' do
+  pod 'TYCustomScrollView', :path => '../'
+
+  target 'TYCustomScrollView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
