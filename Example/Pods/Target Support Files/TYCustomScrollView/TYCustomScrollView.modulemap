@@ -1,0 +1,6 @@
+framework module TYCustomScrollView {
+  umbrella header "TYCustomScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

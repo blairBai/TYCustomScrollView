@@ -1,0 +1,27 @@
+PODS:
+  - LookinServer (1.0.0)
+  - Masonry (1.1.0)
+  - TYCustomScrollView (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - LookinServer (= 1.0.0)
+  - TYCustomScrollView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - Masonry
+
+EXTERNAL SOURCES:
+  TYCustomScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TYCustomScrollView: 3d3e2ef375ed8eabd406e29d93ba0e3fa3f5b3b2
+
+PODFILE CHECKSUM: 7296b6ca1f8ee5e12d2a5c578916566aec62cda7
+
+COCOAPODS: 1.10.1

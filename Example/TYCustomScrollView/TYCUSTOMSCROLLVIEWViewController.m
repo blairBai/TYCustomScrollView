@@ -8,6 +8,8 @@
 
 #import "TYCUSTOMSCROLLVIEWViewController.h"
 
+#import "TYNormalScrollView.h"
+
 @interface TYCUSTOMSCROLLVIEWViewController ()
 
 @end

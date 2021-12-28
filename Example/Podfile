@@ -1,3 +1,8 @@
+source 'https://cdn.cocoapods.org/'
+#source 'https://git.ybsjyyn.com/iOSComponentization/TYSpecs.git'
+
+install! 'cocoapods', :deterministic_uuids => false
+
 use_frameworks!
 
 platform :ios, '9.0'
@@ -5,9 +10,11 @@ platform :ios, '9.0'
 target 'TYCustomScrollView_Example' do
   pod 'TYCustomScrollView', :path => '../'
 
+  pod 'LookinServer', '1.0.0', :configurations => ['Debug']
+  
   target 'TYCustomScrollView_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end

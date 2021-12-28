@@ -1,0 +1,27 @@
+{
+  "name": "TYCustomScrollView",
+  "version": "0.1.0",
+  "summary": "A short description of TYCustomScrollView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/blairBai/TYCustomScrollView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baiyunfei": "513737874@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/blairBai/TYCustomScrollView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TYCustomScrollView/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
