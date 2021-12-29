@@ -12,7 +12,7 @@
     "baiyunfei": "513737874@qq.com"
   },
   "source": {
-    "git": "https://github.com/blairBai/TYCustomScrollView.git",
+    "git": "git@github.com:blairBai/TYCustomScrollView.git",
     "tag": "0.1.0"
   },
   "platforms": {
