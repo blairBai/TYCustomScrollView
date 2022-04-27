@@ -9,7 +9,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TYNormalScrollView : UIScrollView
+@interface TYNormalScrollView : UIView
+
+@property (nonatomic) CGSize contentSize;
 
 @end
 

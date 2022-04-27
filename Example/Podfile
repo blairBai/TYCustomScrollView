@@ -1,5 +1,5 @@
 source 'https://cdn.cocoapods.org/'
-#source 'https://git.ybsjyyn.com/iOSComponentization/TYSpecs.git'
+source 'https://github.com/blairBai/YFSpecs.git'
 
 install! 'cocoapods', :deterministic_uuids => false
 

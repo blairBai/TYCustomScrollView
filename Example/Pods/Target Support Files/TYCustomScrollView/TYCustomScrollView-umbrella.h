@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "TYDynamicItem.h"
 #import "TYNormalScrollView.h"
+#import "YFCustomScrollView.h"
 
 FOUNDATION_EXPORT double TYCustomScrollViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char TYCustomScrollViewVersionString[];
